@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header {
+    background-image: url(https://tudosobrehospedagemdesites.com.br/site/wp-content/uploads/2019/02/dominio-dev-topo-728x273.png);
+    text-align: center;
+    padding: 110px 0;
+    font-size: 40px;
+    color: rgb(77, 16, 221);
+    font-family: 'Patrick Hand', cursive;
+}
+
+.header p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.social img{
+    width: 30px;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar {
+    width: 30%;
+    background-color: rgba(5, 2, 51, 1);
+    padding: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    color: #7e51c7;
+    border-radius: 80px 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #6f00ff;
+}
+
+.content {
+    width: 70%;
+    background-color: rgba(60, 26, 235, 0.884);
+    padding: 30px;
+}
+
+.content h1 {
+    color: rgba(5, 2, 51, 1);
+    font-family: 'Architects Daughter';
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.content p {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.footer{
+    color: white;
+    background-color: rgb(58, 5, 252);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 5, 252);
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+}
